@@ -5,3 +5,4 @@
 - color choice
 - content architecture
 - imagery choice
+- SEO basics
