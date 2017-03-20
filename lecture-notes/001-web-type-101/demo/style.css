@@ -16,12 +16,12 @@
   box-sizing: border-box;
 }
 
-ul {
+.list {
   line-height: 1.5em;
   margin: 25px 0 25px 25px;
 }
 
-li::before {
+.list li::before {
   height: 7px;
   width: 7px;
   border-radius: 50px;
