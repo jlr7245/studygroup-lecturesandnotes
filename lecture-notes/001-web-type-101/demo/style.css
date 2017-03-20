@@ -6,7 +6,87 @@
 
 /* base setup */
 
+.container {
+  width: 80vw;
+  max-width: 1000px;
+  margin: 150px auto;
+  border: 1px solid #eee;
+  font-family: georgia, serif;
+  padding: 50px;
+  box-sizing: border-box;
+}
 
+ul {
+  line-height: 1.5em;
+  margin: 25px 0 25px 25px;
+}
+
+li::before {
+  height: 7px;
+  width: 7px;
+  border-radius: 50px;
+  background-color: rgb(142,216,248);
+  display: inline-block;
+  margin-right: 10px;
+  content: ' ';
+  vertical-align: middle;
+}
+
+a {
+  color: #2b6d89;
+}
+
+/*lead*/
+
+
+
+.lead {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 50px;
+}
+
+.lead h1 {
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 25px;
+}
+
+
+/*example*/
+.example-container {
+  margin: 25px;
+  padding: 15px;
+}
+
+.example-container h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/*demo*/
+.demo-cols {
+  display: flex;
+  padding: 15px;
+  background-color: #fafafa;
+}
+
+.demo-steps, .demo-head {
+  flex: 1;
+  padding: 15px;
+}
+
+.demo-head {
+  display: flex;
+  align-items: center;
+}
+
+
+/*specific demos*/
+
+.demo-convert {
+  font-size: 2em;
+}
 
 
 /* baseline & xheight diagram */
