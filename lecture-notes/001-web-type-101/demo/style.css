@@ -1,11 +1,48 @@
 
+/* fonts */
+
+
+
+
 /* base setup */
 
 
 
 
-/* fonts */
-
-
-
 /* baseline & xheight diagram */
+
+.tester:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  outline: 1px solid rgb(142,216,248);
+  border-right:1px solid white;
+  box-sizing:border-box;
+  display: block;
+  height: 1ex;
+  width: 100%;
+  display: inline-block;
+  margin-left:-100%;
+}
+
+.tester:before {
+  content: '';
+  left: 0;
+  bottom: 0;
+  height:1em;
+  border-top: 1px solid rgb(142,216,248);
+  border-bottom: 1px solid rgb(142,216,248);
+  display: block;
+  width: 100%;
+  display: inline-block;
+  vertical-align:middle;
+  margin-right:-100%;
+}
+
+.tester {
+  position: relative;
+  font-size: 100px;
+  line-height: 1em;
+  display:inline-block;
+  margin-left: 30px;
+}
