@@ -14,6 +14,7 @@
 
     <div class='lead'>
       <h1 class='head'>Web Typography 101</h1>
+      <h4>Prepared by J Silverstein | 3/22/17</h4>
       <ul class='subjects list'>
         <li>Converting, downloading, and hosting your own fonts</li>
         <li>Using CSS to make your text pop</li>
@@ -26,7 +27,7 @@
       <h2 class='example-top'>Converting, Downloading, & Hosting</h2>
       <ul class='list'>
         <li>Sometimes you want to use a particular font, but it's not available on Google Fonts, or you can't find a web type version.</li>
-        <li>The solution is to use <a href='https://www.fontsquirrel.com/' target='_blank'>FontSquirrel</a> to convert your fonts and host them yourself.</li>
+        <li>One possible solution is to use <a href='https://www.fontsquirrel.com/' target='_blank'>FontSquirrel</a> to convert your fonts and host them yourself.</li>
       </ul>
 
       <div class='demo-cols'>
@@ -40,16 +41,116 @@
             <li>Run the generator & download the results</li>
             <li>Copy the fonts into your fonts directory & the CSS into your CSS file. </li>
             <li><b>Important!</b> Make sure you're accurately pointing your CSS rule to the correct directory!!!</li>
+            <li>Apply your new font to the desired element!</li>
           </ul>
         </div>
       </div>
     </div>
 
     <div class='example-container'>
+      <h2 class='example-top'>Using CSS to make type pop!</h2>
+      <ul class='list'>
+        <li>There are a number of things we can do to help out our web typography, without the help of Photoshop or another editor.</li>
+        <li>Detail is key in successful web typography.</li>
+      </ul>
+
+      <div id='popex'>
+        <ul class='tabnav'>
+          <li class='popextab actv'>Font Stacks</li>
+          <li class='popextab'>Built-in Categories</li>
+          <li class='popextab'>Font Size</li>
+          <li class='popextab'>Line Height</li>
+          <li class='popextab'>Letter Spacing</li>
+        </ul>
+        <div class='tabcont'>
+          <div class='popexcont actv'>
+            <ul class='list'>
+              <li>Font stacks allow us to set us a variety of fallbacks in case a webfont doesn't load correctly or the user doesn't have the desired font in their database.</li>
+              <li>There a bunch of pre-rolled font stacks <a href='https://css-tricks.com/snippets/css/font-stacks/' target='_blank'>available</a> <a href='http://www.cssfontstack.com/Web-Fonts' target='_blank'>around</a> <a href='https://www.smashingmagazine.com/2009/09/complete-guide-to-css-font-stacks/' target='_blank'>the web</a>.</li>
+              <li>Or you can roll your own!</li>
+            </ul>
+            <div class='demo-cols'>
+              <div class='demo-head'>
+                <h3 class='demo-fontstack'>Ideally this font should display in Poppins, but I don't mind seeing it in Raleway or Futura. If it has to, it can display in Arial.</h3>
+            </div>
+              <div class='demo-steps'>
+                <ul class='list'>
+                  <li>A font stack is written in order from most preferred to least preferred.</li>
+                  <li>There are a couple default fonts that should be at the end of every font stack.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class='popexcont'>
+            <ul class='list'>
+              <li>There are some built-in defaults that are used to give handy fallbacks if you want a particular look but aren't sure what font your viewer will have.</li>
+            </ul>
+            <div class='demo-cols deffont'>
+              <div class='demo-sub'>
+                <p>Probably you will most frequently use these:</p>
+                <h1 style="font-family: serif">Serif</h1>
+                <h1 style="font-family: sans-serif">Sans-Serif</h1>
+              </div>
+              <div class='demo-steps'>
+                <p>However, it's also good to know about these:</p>
+                <h1 style="font-family: cursive">Cursive</h1>
+                <h1 style="font-family: fantasy">Fantasy</h1>
+                <h1 style="font-family: monospace">Monospace</h1>
+              </div>
+            </div>
+          </div>
+          <div class='popexcont'>
+            <p>I'm going to go ahead and quote here from a great piece in <a href='http://web.archive.org/web/20130104231015/https://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake' target='_blank'>Smashing Mag</a>, way back from 2011:</p>
+            <blockquote>In print, type as small as 8 points is an ideal compromise between readability and cost, because you have to pay for every millimeter you use. On the Web, you pay nothing for using more space — provided that readers find your copy compelling, of course. What you do pay for is readers finding your compelling copy so hard to read that they click away instead of converting.</blockquote>
+            <p>Which would you rather read?</p>
+            <div class='demo-cols'>
+              <div class='demo-sub'>
+                <p style='font-size: 12px;'>AS GREGOR SAMSA awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect. He was lying on his hard, as it were armor-plated, back and when he lifted his head a little he could see his dome-like brown belly divided into stiff arched segments on top of which the bed quilt could hardly keep in position and was about to slide off completely. His numerous legs, which were pitifully thin compared to the rest of his bulk, waved helplessly before his eyes.</p>
+              </div>
+              <div class='demo-sub'>
+                <p>AS GREGOR SAMSA awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect. He was lying on his hard, as it were armor-plated, back and when he lifted his head a little he could see his dome-like brown belly divided into stiff arched segments on top of which the bed quilt could hardly keep in position and was about to slide off completely. His numerous legs, which were pitifully thin compared to the rest of his bulk, waved helplessly before his eyes.</p>
+              </div>
+            </div>
+            <p>Font size also isn't just a question of readability -- it can be used to draw the reader's eye to important content, or to organize the rhythm and flow of a design.</p>
+          </div>
+          <div class='popexcont'>
+            <p>Line height is another one of those things that can mean the difference between easily readable and totally illegible. A good rule of thumb is to keep your <code>line-height</code> property between <code>1.2em</code> and <code>1.4em</code>.</p>
+            <p>Which would you rather read?</p>
+            <div class='demo-cols'>
+              <div class='demo-sub'>
+                <p style='line-height: 1em;'>AS GREGOR SAMSA awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect. He was lying on his hard, as it were armor-plated, back and when he lifted his head a little he could see his dome-like brown belly divided into stiff arched segments on top of which the bed quilt could hardly keep in position and was about to slide off completely. His numerous legs, which were pitifully thin compared to the rest of his bulk, waved helplessly before his eyes.</p>
+              </div>
+              <div class='demo-sub'>
+                <p>AS GREGOR SAMSA awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect. He was lying on his hard, as it were armor-plated, back and when he lifted his head a little he could see his dome-like brown belly divided into stiff arched segments on top of which the bed quilt could hardly keep in position and was about to slide off completely. His numerous legs, which were pitifully thin compared to the rest of his bulk, waved helplessly before his eyes.</p>
+              </div>
+            </div>
+          </div>
+          <div class='popexcont'>
+            <p>Letter-spacing is often more of a consmetic consideration than a practical one, but it can still make some elements more readable or less readable. Let's take a look at some navigations.</p>
+            <div class='demo-cols vert'>
+              <ul class='navex'>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Blog</li>
+                <li>Contact</li>
+              </ul>
+              <ul class='navex spaced'>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Blog</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
 
   </div>
+  <script src='./main.js'></script>
 </body>
 </html>
 

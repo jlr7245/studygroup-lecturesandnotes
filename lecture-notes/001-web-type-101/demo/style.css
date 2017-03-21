@@ -4,7 +4,35 @@
 
 
 
+
+/*FONTSTACK*/
+/*@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway');*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+
+
+/*specific demos*/
+
+.demo-convert {
+  /* rule in here with custom font */
+}
+
+.demo-fontstack {
+  /* rule in here with font stack */
+}
+
+.demo-lineheight {
+  /* rule in here about line-height */
+}
+
+
 /* base setup */
+
+body {
+  background-color: #fcfcfc;
+}
 
 .container {
   width: 80vw;
@@ -14,6 +42,7 @@
   font-family: georgia, serif;
   padding: 50px;
   box-sizing: border-box;
+  background-color: white;
 }
 
 .list {
@@ -36,6 +65,26 @@ a {
   color: #2b6d89;
 }
 
+b {
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin: 15px 0;
+  line-height: 1.3em;
+}
+
+blockquote {
+  display: block;
+  margin: 15px 0 15px 20px;
+  border-left: 3px solid rgb(142,216,248);
+  padding-left: 15px;
+  line-height: 1.3em;
+  font-style: oblique;
+}
+
+
 /*lead*/
 
 
@@ -48,14 +97,22 @@ a {
 .lead h1 {
   font-size: 3em;
   line-height: 1em;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+}
+
+.lead h4 {
+  margin-left: 30px;
+  color: rgb(142,216,248);
+  font-style: oblique;
 }
 
 
 /*example*/
 .example-container {
   margin: 25px;
-  padding: 15px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 50px;
 }
 
 .example-container h2 {
@@ -70,8 +127,16 @@ a {
   padding: 15px;
   background-color: #fafafa;
 }
+.vert {
+  flex-direction: column;
+}
+@media screen and (max-width: 1000px) {
+  .demo-cols {
+    flex-direction: column;
+  }
+}
 
-.demo-steps, .demo-head {
+.demo-steps, .demo-head, .demo-sub {
   flex: 1;
   padding: 15px;
 }
@@ -81,13 +146,71 @@ a {
   align-items: center;
 }
 
-
-/*specific demos*/
-
-.demo-convert {
+.demo-head h3 {
   font-size: 2em;
+  line-height: 1.2em;
 }
 
+.tabnav {
+  display: flex;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .tabnav {
+    flex-direction: column;
+  }
+}
+
+.tabnav li {
+  flex: 1;
+  border-bottom: 3px solid #eee;
+  padding: 10px;
+}
+
+.tabnav .actv {
+  border-color: rgb(142,216,248);
+  background-color: #eee;
+}
+
+.tabcont {
+  padding: 25px 0;
+}
+
+.deffont h1 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.navex {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  padding: 15px 20px;
+  margin: 10px 0;
+}
+
+.navex li {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'helvetica neue', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.navex.spaced li {
+  letter-spacing: 1.5px;
+}
+
+
+/* making the tabs work */
+
+.popexcont {
+  display: none;
+}
+
+.actv {
+  display: block;
+}
 
 /* baseline & xheight diagram */
 
@@ -112,10 +235,9 @@ a {
   height:1em;
   border-top: 1px solid rgb(142,216,248);
   border-bottom: 1px solid rgb(142,216,248);
-  display: block;
   width: 100%;
   display: inline-block;
-  vertical-align:middle;
+  vertical-align: middle;
   margin-right:-100%;
 }
 
