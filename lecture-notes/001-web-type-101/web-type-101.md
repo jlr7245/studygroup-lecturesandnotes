@@ -40,11 +40,17 @@ Print layouts influence web type, as many early designers came from print and st
 
 ![newspaper page](./assets/newspaper2.jpg)
 
-Having a baseline grid -- [here is a handy image](https://i1.wp.com/www.aisleone.net/wp-content/uploads/2009/04/image4.jpg)
+![baseline](./assets/baseline.jpg)
 
 This is sort of where grid systems like bootstrap and so on came from -- designing in a grid is natural and efficient for typograpers handling presses that are set up for it. [Example site](http://on-hybrids.eli-block.com/)
 
 In some ways the web is moving towards a more postmodern understanding of the grid. Instead of saying, "Oh, here is a page, here is the grid we use to arrange the page", the thought process is more along the lines of "Here are elements in a configuration that is assembled and reassembled as needed to account for different screen sizes."
+
+![postmodern grid](./assets/postmodern-grid.jpg)
+
+Describing the web as "an edgeless surface of unknown proportions comprised of small, individual, and variable elements from multiple vantages assembled into a readable whole that documents a moment." [from fantastic article The Web's Grain](https://frankchimero.com/writing/the-webs-grain/)
+
+Anyway, this is all getting a little abstract.
 
 ### Scale
 
