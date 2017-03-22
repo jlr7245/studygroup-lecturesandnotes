@@ -204,7 +204,7 @@ blockquote {
 
 /* making the tabs work */
 
-.popexcont {
+.popexcont, .choicexcont {
   display: none;
 }
 
