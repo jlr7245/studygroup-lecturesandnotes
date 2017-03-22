@@ -58,6 +58,7 @@ One of the ways to manage the grid is with type scales. The most common type sca
 - Gives options for bdoy & headline depending on what's more appropriate for the situation
 - The tried & tested concept for this is to pick a serif font and a sans-serif font, since pairing those two is easier.
 - Dangers of picking two serifs or two sans -- take a look at [adobe lists](https://typekit.com/lists)
+- [example one](http://rhcbooks.com/), [example two](http://esknoxville.org/), [example three](http://a-l-a-a.com/)
 
 
 ### Anatomy of a Typeface
@@ -66,13 +67,16 @@ One of the ways to manage the grid is with type scales. The most common type sca
 
 ![Anatomy of a Typeface](./assets/anatomy.png)
 
-[Codepen link]()
+[Codepen link](http://codepen.io/jlr7245/pen/OpgevB)
 
 ### Pairing 201
 
 - Pairing more than two typefaces
+- go into healthify type choices & the roles for each -- consistency in font roles
+- Creating a visual language for information hierarcy so a viewer can see at a glance what's going on
 - Making sure fonts have similar characteristics -- same x-height, etc. -- even if they have very different looks & feels.
-- It's tough to go into this really well
+- Here are some great examples: [example one](https://news.northeastern.edu/), [example 2](https://www.thebureauinvestigates.com/), 
+- Sometimes it can work when there's just one typeface: [example one](http://eastroom.ca/#membership), [example two](https://www.offscreenmag.com/), [example three](https://semaphoreci.com/)
 
 ### When to use or not use decorative fonts
 
@@ -82,4 +86,10 @@ One of the ways to manage the grid is with type scales. The most common type sca
 
 ## Talk some about voice in typography here!
 
+[third health site](http://www.boweryfarming.com/)
 
+## Accessibility 
+
+[dyslexic friendly typeface](http://opendyslexic.org/)
+
+[chrome extension](https://chrome.google.com/webstore/detail/opendyslexic/cdnapgfjopgaggbmfgbiinmmbdcglnam?hl=en)
