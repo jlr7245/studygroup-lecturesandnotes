@@ -9,10 +9,52 @@
     - Letter-spacing
     - Large fonts in featured places
     - Type and imagery
-3. Type Choice 101
+3. What *is* typogrpahy, anyway?
+4. Type Choice 101
     - Choosing typefaces and using them judiciously (mixing serif and sans-serif)
     - Font pairing
     - How to match serifs and sans-serifs
     - When to use decorative fonts & how to choose them judiciously
-4. Some typography examples
+5. Some typography examples
     - Healthify vs Northport Nutrition (voice)
+
+
+## What is typography?
+
+### At the most basic explanation - typography is the design and use of typefaces as a means of communication.
+
+- Here is a good article: [What is typography?](https://www.thoughtco.com/basic-typography-terminology-1697697)
+- A particularly good part: "Look at each block of text as though it had no words in it. What shapes does the text make on the page? Make sure those shapes carry the entire page design forward."
+- At its base, typography is a way to get across information on the page. But, it's also a design element of the page. The type you choose communicates the design of your product just as much as imagery, color choice, wording, etc.
+
+- Difference bteween 
+
+
+## Type Choice 101
+
+### Grid
+
+Print layouts influence web type, as many early designers came from print and started designing for web. Many sites still use the grid layout.
+
+![newspaper block](./assets/newspaper1.jpg)
+
+![newspaper page](./assets/newspaper2.jpg)
+
+Having a baseline grid -- [here is a handy image](https://i1.wp.com/www.aisleone.net/wp-content/uploads/2009/04/image4.jpg)
+
+This is sort of where grid systems like bootstrap and so on came from -- designing in a grid is natural and efficient for typograpers handling presses that are set up for it. [Example site](http://on-hybrids.eli-block.com/)
+
+In some ways the web is moving towards a more postmodern understanding of the grid. Instead of saying, "Oh, here is a page, here is the grid we use to arrange the page", the thought process is more along the lines of "Here are elements in a configuration that is assembled and reassembled as needed to account for different screen sizes."
+
+### Scale
+
+One of the ways to manage the grid is with type scales. The most common type scale is 48, 36, 24, 21, 18, 16, 14 -- non-linear.
+
+### Pairing 101
+
+[Adapted from this article](http://blog.invisionapp.com/how-to-pair-fonts/)
+
+- Provides contrast & emphasis without having to add additional elements or change colors & so on
+- Gives options for bdoy & headline depending on what's more appropriate for the situation
+- The tried & tested concept for this is to pick a serif font and a sans-serif font, since pairing those two is easier.
+
