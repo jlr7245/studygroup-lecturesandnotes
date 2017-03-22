@@ -3,7 +3,7 @@
 ### Objectives
 
 1. Go over how to convert, download, & host your own fonts
-2. Using CSS to make your fonts pop
+2. Using CSS to make type easier to read
     - The concept of the font stack
     - Serif, sans-serif, cursive, fantasy, monospace
     - Letter-spacing
