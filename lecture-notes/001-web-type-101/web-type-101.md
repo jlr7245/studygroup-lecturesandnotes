@@ -57,4 +57,29 @@ One of the ways to manage the grid is with type scales. The most common type sca
 - Provides contrast & emphasis without having to add additional elements or change colors & so on
 - Gives options for bdoy & headline depending on what's more appropriate for the situation
 - The tried & tested concept for this is to pick a serif font and a sans-serif font, since pairing those two is easier.
+- Dangers of picking two serifs or two sans -- take a look at [adobe lists](https://typekit.com/lists)
+
+
+### Anatomy of a Typeface
+
+[Here is a detailed resource.](http://typedia.com/learn/only/anatomy-of-a-typeface)
+
+![Anatomy of a Typeface](./assets/anatomy.png)
+
+[Codepen link]()
+
+### Pairing 201
+
+- Pairing more than two typefaces
+- Making sure fonts have similar characteristics -- same x-height, etc. -- even if they have very different looks & feels.
+- It's tough to go into this really well
+
+### When to use or not use decorative fonts
+
+- Decorative fonts should only be used for emphasis when necessary.
+- Show profilepro example
+- But sometimes sites can use decorative type and it fits the voice. For example: [http://enchantments.guide/](http://enchantments.guide/)
+
+## Talk some about voice in typography here!
+
 
