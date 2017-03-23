@@ -41,5 +41,5 @@ console.log('hello');
 const popexTabs = tabs('popex', 'popextab', 'popexcont');
 popexTabs.init();
 
-const choicexTabs = tabs('choicex', 'choicextab', 'choicexcont');
-choicexTabs.init();
+// const choicexTabs = tabs('choicex', 'choicextab', 'choicexcont');
+// choicexTabs.init();
