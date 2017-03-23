@@ -27,8 +27,6 @@
 - A particularly good part: "Look at each block of text as though it had no words in it. What shapes does the text make on the page? Make sure those shapes carry the entire page design forward."
 - At its base, typography is a way to get across information on the page. But, it's also a design element of the page. The type you choose communicates the design of your product just as much as imagery, color choice, wording, etc.
 
-- Difference bteween 
-
 
 ## Type Choice 101
 
