@@ -7,16 +7,16 @@
     - The concept of the font stack
     - Serif, sans-serif, cursive, fantasy, monospace
     - Letter-spacing
-    - Large fonts in featured places
-    - Type and imagery
+    - Scale
 3. What *is* typogrpahy, anyway?
 4. Type Choice 101
+    - Why the grid?
     - Choosing typefaces and using them judiciously (mixing serif and sans-serif)
     - Font pairing
     - How to match serifs and sans-serifs
     - When to use decorative fonts & how to choose them judiciously
 5. Some typography examples
-    - Healthify vs Northport Nutrition (voice)
+    - Healthify vs Northport Nutrition vs Bowery Farming (voice)
 
 
 ## What is typography?
@@ -49,10 +49,6 @@ In some ways the web is moving towards a more postmodern understanding of the gr
 Describing the web as "an edgeless surface of unknown proportions comprised of small, individual, and variable elements from multiple vantages assembled into a readable whole that documents a moment." [from fantastic article The Web's Grain](https://frankchimero.com/writing/the-webs-grain/)
 
 Anyway, this is all getting a little abstract.
-
-### Scale
-
-One of the ways to manage the grid is with type scales. The most common type scale is 48, 36, 24, 21, 18, 16, 14 -- non-linear.
 
 ### Pairing 101
 
