@@ -1,9 +1,28 @@
 
 /* fonts */
+@font-face {
+    font-family: 'linden-hill';
+    src: url('./fonts/linden_hill-webfont.woff2') format('woff2'),
+         url('./fonts/linden_hill-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 
 
+@font-face {
+    font-family: 'linden-hill';
+    src: url('./fonts/linden_hill_italic-webfont.woff2') format('woff2'),
+         url('./fonts/linden_hill_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+
+}
+
+
+.acier {font-family: 'acier-bat-noir', futura, sans-serif;}
 
 /*FONTSTACK*/
 /*@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway');*/
@@ -17,10 +36,13 @@
 
 .demo-convert {
   /* rule in here with custom font */
+  font-family: 'linden-hill', sans-serif;
+  font-style: oblique;
 }
 
 .demo-fontstack {
   /* rule in here with font stack */
+  font-family: 'poppins', 'raleway', 'futura', arial, sans-serif;
 }
 
 .demo-lineheight {
