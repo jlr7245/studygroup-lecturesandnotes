@@ -14,17 +14,25 @@
   width: 80%;
   max-width: 1000px;
   padding: 50px;
-  border: 1px solid #eee;
+  border: 1px solid grey;
   box-sizing: border-box;
   /* POSITIONING */
+  position: relative;
 }
 
 
 .first {
+  top: 100px;
+  left: 100px;
+  position: relative;
   background-color: #E54B4B;
 }
 
+/* this is where it gets weird !!!! */
 .second {
+  position: relative;
+  top: 150px;
+  left: 300px;
   background-color: #167C80;
 }
 
