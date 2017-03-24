@@ -2,7 +2,7 @@
 
 ### Objectives: 
 - Understand how the position property affects how an element is placed on the page. 
-- Understand position property use cases with respect to media queries and different screen sizes. 
+- Apply position property in a variety of use cases with respect to media queries and screen size.
 
 ## Lecture Notes
 
