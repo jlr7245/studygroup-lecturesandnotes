@@ -8,7 +8,7 @@
 
 When I was planning this lecture, I was talking with some friends about what they thought the most difficult part of CSS to really understand was. I got a variety of different responses, but there was one that really stuck out to me. One of my friends said, "Position and display, those property are definitely cursed." Cursed??? Well, okay, we'll see. I hope not.
 
-### High-level overview: The position property controls how an element is placed with respect to its parent element and/or the browser viewport.
+### High-level overview: The position property controls how an element is placed with respect to the browser viewport and/or its parent element.
 
 1. Static!
 
