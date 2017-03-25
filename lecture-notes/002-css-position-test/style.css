@@ -30,12 +30,18 @@
 
 /* this is where it gets weird !!!! */
 .second {
-  position: relative;
-  top: 150px;
-  left: 300px;
   background-color: #167C80;
 }
 
 .third {
   background-color: #FBCBC1;
+  position: relative;
+  top: 150px;
+  left: 300px;
+}
+
+.fourth {
+  background-color: #7A30CF;
+  position: fixed;
+  z-index: -1;
 }
