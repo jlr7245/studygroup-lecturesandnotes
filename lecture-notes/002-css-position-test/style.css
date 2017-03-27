@@ -1,7 +1,7 @@
 .box {
   height: 200px;
   width: 200px;
-  display:inline-block;
+  display:block;
 }
 
 .hide {
@@ -44,4 +44,21 @@
   background-color: #7A30CF;
   position: fixed;
   z-index: -1;
+}
+
+.fifth {
+  background-color: #008FD3;
+  position: relative;
+}
+
+.subbox {
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+.sixth {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  background-color: #8B743D;
 }
